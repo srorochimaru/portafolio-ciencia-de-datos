@@ -72,7 +72,7 @@ if seleccion == "1. Inicio":
     st.markdown("<h1 class='main-title'>Portafolio Profesional de Ciencia de Datos</h1>", unsafe_allow_html=True)
     col1, col2 = st.columns([1, 2])
     with col1:
-        st.image("https://via.placeholder.com/250x300.png?text=Josue+Lopez", caption="Josué David López Dubón", width=230)
+        st.image("https://drive.google.com/file/d/1aYk9waqeYXagIR7_gq8dmxnPGB9u5-h4/view?usp=sharing", caption="Josué David López Dubón", width=230)
     with col2:
         st.markdown("<h3 class='section-title'>Resumen Profesional</h3>", unsafe_allow_html=True)
         st.write("""
