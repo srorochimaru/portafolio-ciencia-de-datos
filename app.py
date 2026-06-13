@@ -73,7 +73,7 @@ if seleccion == "1. Inicio":
     col1, col2 = st.columns([1, 2])
     with col1:
         # Enlace transformado para descarga directa de Google Drive
-        st.image("https://thumbnail.ws.126.net/jpg/https://drive.google.com/uc?export=download&id=1aYk9waqeYXagIR7_gq8dmxnPGB9u5-h4", caption="Josué David López Dubón", width=230)
+        st.image("https://drive.google.com/u/0/drive-viewer/AKGpihYJXkvXjCYhBggcI0macNZfkoTYwzDeZTBKI87lqhGZK13fObFMd1l1ODTaNaUt_XBaOVO7daGanUnXhlpvOEx4LS2RXMtkrA=s1600-rw-v1?auditContext=forDisplay", caption="Josué David López Dubón", width=230)
     with col2:
         st.markdown("<h3 class='section-title'>Resumen Profesional</h3>", unsafe_allow_html=True)
         st.write("""
