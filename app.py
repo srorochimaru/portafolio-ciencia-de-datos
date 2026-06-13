@@ -73,7 +73,7 @@ if seleccion == "1. Inicio":
     col1, col2 = st.columns([1, 2])
     with col1:
         # Cargamos tu foto directamente desde los archivos locales del proyecto
-        st.image("mi_foto.png", caption="Josué David López Dubón", width=230)
+        st.image("mi_foto.jpg", caption="Josué David López Dubón", width=230)
     with col2:
         st.markdown("<h3 class='section-title'>Resumen Profesional</h3>", unsafe_allow_html=True)
         st.write("""
