@@ -72,8 +72,8 @@ if seleccion == "1. Inicio":
     st.markdown("<h1 class='main-title'>Portafolio Profesional de Ciencia de Datos</h1>", unsafe_allow_html=True)
     col1, col2 = st.columns([1, 2])
     with col1:
-        # Enlace transformado para descarga directa de Google Drive
-        st.image("https://drive.google.com/u/0/drive-viewer/AKGpihYJXkvXjCYhBggcI0macNZfkoTYwzDeZTBKI87lqhGZK13fObFMd1l1ODTaNaUt_XBaOVO7daGanUnXhlpvOEx4LS2RXMtkrA=s1600-rw-v1?auditContext=forDisplay", caption="Josué David López Dubón", width=230)
+        # Cargamos tu foto directamente desde los archivos locales del proyecto
+        st.image("mi_foto.png", caption="Josué David López Dubón", width=230)
     with col2:
         st.markdown("<h3 class='section-title'>Resumen Profesional</h3>", unsafe_allow_html=True)
         st.write("""
