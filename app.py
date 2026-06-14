@@ -73,7 +73,7 @@ if seleccion == "1. Inicio":
     col1, col2 = st.columns([1, 2])
     with col1:
         # Enlace directo al archivo real .jpg que subiste a GitHub
-        url_foto_github = "https://github.com/srorochimaru/portafolio-ciencia-de-datos/blob/8cfc7d3c4faef0f843e1121d20c75ece752eca47/mifoto.jpg"
+        url_foto_github = "https://github.com/srorochimaru/portafolio-ciencia-de-datos/blob/main/mifoto.jpg?raw=true"
         
         # Le indicamos a Streamlit que cargue la imagen desde la URL pública
         st.image(url_foto_github, caption="Josué David López Dubón", width=230)
