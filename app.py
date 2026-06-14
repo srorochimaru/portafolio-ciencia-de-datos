@@ -72,14 +72,12 @@ if seleccion == "1. Inicio":
     st.markdown("<h1 class='main-title'>Portafolio Profesional de Ciencia de Datos</h1>", unsafe_allow_html=True)
     col1, col2 = st.columns([1, 2])
     with col1:
-        # Esto calcula la ruta exacta de la foto dentro del servidor de Streamlit
-        ruta_foto = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mi_foto.png")
+        # Enlace directo al archivo real .jpg que subiste a GitHub
+        url_foto_github = "https://github.com/srorochimaru/portafolio-ciencia-de-datos/blob/8cfc7d3c4faef0f843e1121d20c75ece752eca47/mifoto.jpg"
         
-        if os.path.exists(ruta_foto):
-            st.image(ruta_foto, caption="Josué David López Dubón", width=230)
-        else:
-            # Si por algún motivo falla, dejamos un avatar temporal para que no rompa la página
-            st.image("https://via.placeholder.com/250x300.png?text=Josue+Lopez", caption="Josué David López Dubón", width=230)
+        # Le indicamos a Streamlit que cargue la imagen desde la URL pública
+        st.image(url_foto_github, caption="Josué David López Dubón", width=230)
+            
     with col2:
         st.markdown("<h3 class='section-title'>Resumen Profesional</h3>", unsafe_allow_html=True)
         st.write("""
