@@ -90,7 +90,7 @@ if seleccion == "1. Inicio":
 
     st.markdown("---")
     st.markdown("<h3 class='section-title'>Demo de Data Storytelling</h3>", unsafe_allow_html=True)
-    url_video = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" # REEMPLAZAR CON TU LINK REAL
+    url_video = "https://youtu.be/0j8HagDMozQ" # REEMPLAZAR CON TU LINK REAL
     st.video(url_video)
 
 # ==========================================================
